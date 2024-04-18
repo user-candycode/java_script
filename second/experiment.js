@@ -1,7 +1,9 @@
-const isSkyBlue=true;
+const timesToRepeat = 10;
+const character  = '🤖'
 
-if (isSkyBlue){
-	console.log("The sky is blue");
-}else{
-	console.log("the sky is not blue");
+let answer=''
+for(let i=0; i<10;i++){
+	answer=answer+character+ ' '
 }
+
+console.log(answer)
